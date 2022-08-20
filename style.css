@@ -84,6 +84,7 @@
     font-size: 20px;
     font-style: inherit;
     background: blue;
+    color: #ffffff;
 }
 #boton2:hover{
     transform: scale(1.1);
@@ -272,7 +273,7 @@
         top: 53%;
     }
     #aviso1{
-        top: 30%;
+        top: 20%;
         font-size: 100%;
         font-size: 25px;
         color: #ffffff;
@@ -281,7 +282,7 @@
         height: 100%;
     }
     #aviso2{
-        top: 14%;
+        top: 40%;
         font-size: 100%;
         color: #ffffff;
     }
