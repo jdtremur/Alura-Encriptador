@@ -248,8 +248,8 @@
     }
     #texto1{
         width: 100%;
-        top: 8%;
-        height: 37%;
+        top: 13%;
+        height: 30%;
     }
     #vector2{
         top: 47%;
@@ -259,25 +259,41 @@
     }
     .botones1y2{
         top: 55%;
+        height: 7%;
+    }
+    #boton1{
+        font-size: 60%;
+    }
+    #boton2{
+        font-size: 60%;
     }
     .recuadroMostrar{
         margin: 0 5%;
         top: 53%;
     }
     #aviso1{
+        top: 30%;
+        font-size: 100%;
         font-size: 25px;
         color: #ffffff;
     }
+    #mostrarMss{
+        height: 100%;
+    }
     #aviso2{
-        top: 40%;
-        font-size: 22px;
+        top: 14%;
+        font-size: 100%;
         color: #ffffff;
     }
     #texto2{
+        height: 70%;
+        font-size: 100%;
         margin: 0 5%;
     }
     #boton3{
         margin: 0 10%;
+        height: 20%;
+        font-size: 120%;
     }
     .copyright{
         position: absolute;
