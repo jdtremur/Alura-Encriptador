@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Encriptador Alura</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <img src="imagenes/Vector.png" alt="imagen de logo alura" class="imagen1">
+        </header>
+        <main>
+            <div class="area1">
+                <textarea name="" id="texto1" placeholder="Escribe el texto aqui"></textarea>
+                <img src="imagenes/Vector2.png" alt="imagen de advertencia" id="vector2">
+                <p id="textoVector">solo letras minusculas y sin acentos</p>
+                <form class="botones1y2">
+                    <input  type="button" value="Encriptar" id="boton1">
+                    <input  type="button" value="Desencriptar" id="boton2">
+                </form>
+              
+            </div>
+            <div class="recuadroMostrar">
+                <div id="aviso">
+                    <img src="imagenes/Muñeco.png" alt="imagen de muñeco" id="muñeco">
+                    <p id="aviso1">Ningún mensaje sue encontrado</p>
+                    <p id="aviso2">Ingrese el texto que deseas encriptar o desencriptar</p>
+                </div>
+                <form id="mostrarMss">
+                    <textarea name="" id="texto2" cols="30" rows="10"></textarea>
+                    <input  type="button"  value="Copiar" id="boton3">
+                </form>    
+            </div>
+        </main>
+        <footer>
+            <p class="copyright">&copy Copyright Julian David Trejos Murillo/Alura - 2022</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+
+</html>
