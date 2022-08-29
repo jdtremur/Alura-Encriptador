@@ -9,7 +9,7 @@ function quitarimagen(){
     document.getElementById('mostrarMss').style.display = 'block';
 }
 function ponerImagen(){
-    document.getElementById('aviso').style.display = 'block'
+    document.getElementById('aviso').style.display = 'block';
     document.getElementById('mostrarMss').style.display = 'none';
 }
 function borrarMs(){
