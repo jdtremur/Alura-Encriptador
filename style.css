@@ -133,6 +133,7 @@
 }
 #mostrarMss{
     display: none;
+    height: 100%;
 }
 #texto2{
     width: 90%;
@@ -143,6 +144,7 @@
     border: none;
     resize: none;
     background-color: transparent;
+    height: 81%;
 }
 #boton3{
     width: 80%;
