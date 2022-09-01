@@ -95,7 +95,7 @@
 .recuadroMostrar{
     position: absolute;
     width: 20%;
-    height: 90%;
+    height: 108%;
     right: 6em;
     margin: 30px;
     background: linear-gradient(45deg, red, blue, yellow);
