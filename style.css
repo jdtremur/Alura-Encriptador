@@ -173,6 +173,7 @@
 @media screen and (max-width:820px) {
     body{
         height: 1300px;
+        overflow: scroll;
     }
     .imagen1{
         top: 5%;
@@ -240,6 +241,7 @@
 @media screen and (max-width: 414px) {
     body{
         height: 100%;
+        overflow: scroll;
     }
     .imagen1{
         left: 20px;
