@@ -1,308 +1,248 @@
-
+.body{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 2vw 0 0 5vw;
+}
 .imagen1{
-    position: absolute;
-    left: 150px;
-    top: 100px;
+    height: 4vw;
+    width: 3vw;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.main_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 .area1{
-    width: 50%;
-    height: 80%;
-    position: absolute;
-    display: block;
-    top: 150px;
-    left: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60vw;
+    padding: 5vw;
 }
 #texto1{
-    position: absolute;
     width: 100%;
-    height: 50%;
-    top: 100px;
-    font-size: 20px;
-    color: rgb(15, 15, 117);
-    border: none;
-    box-shadow: 10px 10px 10px #cccccc, -10px -10px 10px #cccccc;
-    border-radius: 10px;
-    opacity: 50%;
+    height: 10vw;
+    border-radius: 2vw;
+    text-align: center;
+    font-size: 2vw;
+    color: black;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid #4B6CB7;
     resize: none;
 }
-#texto1:hover{
-    opacity: 100%;
-    transition: 1s;
-    border: 1px solid #cccccc
-}
-::placeholder{
-    font-style: italic;
-    font-size: 20px;
-    color: rgb(91, 91, 100);
+.advertencia{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1vw;
 }
 #vector2{
-    position: absolute;
-    display: block;
-    left: 0px;
-    top: 500px;
+    width: 2vw;
+    height: 2vw;
 }
 #textoVector{
-    position: absolute;
-    display: block;
-    left: 20px;
-    top: 500px;
-    margin: 0px;
-    font-weight: 700;
-    font-style: italic;
-    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    font-weight: 400;
+    color: #4B6CB7;
 }
 .botones1y2{
-    width: 100%;
-    height: 10%;
-    position: absolute;
-    top: 600px;
-    gap: 30px;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3vw;
+    padding: 2vw;
 }
 #boton1{
-    position: relative;
-    width: 40%;
-    height: 100%;
-    margin: 0 3%;
-    border-radius: 25px;
-    font-size: 20px;
-    font-style: inherit;
-    background: yellow;
+    padding: 2vw;
+    width: 18vw;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 1vw;
+    border: solid #4B6CB7;
+    background: #122848;
+    color: #ffffff;
+    transition: 1s;
 }
 #boton1:hover{
     transform: scale(1.1);
-    cursor: pointer;
-    background: #104d70;
-    transition: 1s;
+    background: #ffffff;
+    color: #122848;
 }
 #boton2{
-    position: relative;
-    width: 40%;
-    height: 100%;
-    margin: 0px 3%;
-    border-radius: 25px;
-    font-size: 20px;
-    font-style: inherit;
-    background: blue;
-    color: #ffffff;
+    padding: 2vw;
+    width: 18vw;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 1vw;
+    border: solid #4B6CB7;
+    background: #ffffff;
+    color: #122848;
+    transition: 1s;
 }
 #boton2:hover{
     transform: scale(1.1);
-    cursor: pointer;
-    background:  #ffffff;
-    transition: 1s;
+    background: #122848;
+    color: #ffffff;
 }
 .recuadroMostrar{
-    position: absolute;
-    width: 20%;
-    height: 108%;
-    right: 6em;
-    margin: 30px;
-    background: linear-gradient(45deg, red, blue, yellow);
-    border-radius: 25px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    border: solid #4B6CB7;
+    border-radius: 2vw;
+    width: 20vw;
+    height: 37vw;
 }
 #aviso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1vw;
+    gap: 1vw;
+}
+#muneco{
+    width: 20vw;
+    height: 20vw;
     display: block;
 }
-#muñeco{
-    position: absolute;
-    width: 100%;
-    height: 45%;
-    top: 214px;
-}
 #aviso1{
-    position: absolute;
-    width: 100%;
-    height: 15%;
-    top: 600px;
+    font-size: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
     text-align: center;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 25px;
+    padding: 0;
+    margin: 0;
+    display: block;
 }
 #aviso2{
-    position: absolute;
-    width: 100%;
-    height: 15%;
-    top: 670px;
+    font-size: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
     text-align: center;
-    font-style: normal;
-    font-size: 20px;
+    padding: 0;
+    margin: 0 ;
+    display: block;
 }
 #mostrarMss{
     display: none;
-    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 3vw;
 }
 #texto2{
-    width: 90%;
-    margin: 0.46em;
-    background: #104d70; 
-    font-size: 25px;
-    color: #ffffff;
+    display: none;
+    font-size: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    height: 20vw;
+    width: 15vw;
     border: none;
     resize: none;
-    background-color: transparent;
-    height: 88%;
 }
 #boton3{
-    width: 80%;
-    height: 7%;
-    border-radius: 25px;
+    padding: 1vw;
+    width: 10vw;
     text-align: center;
-    margin: 0 10%;
-    font-size: 20px;
-    font-style: inherit;
-    background: red;
+    font-size: 1vw;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 1vw;
+    border: solid #4B6CB7;
+    background: #ffffff;
+    color: #122848;
+    transition: 1s;
 }
 #boton3:hover{
     transform: scale(1.1);
-    cursor: pointer;
-    background: rgb(157, 157, 63);
-    transition: 1s;
-    font-size: 20px;
-    font-style: inherit;
+    background: #122848;
+    color: #ffffff;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 .copyright{
-    position: absolute;
-    top: 870px;
-    margin: 0 27%;
     text-align: center;
+    font-size: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: #585656;
 }
-@media screen and (max-width:820px) {
-    body{
-        height: 1300px;
-        overflow: scroll;
-    }
+@media screen and (max-width: 820px) { 
     .imagen1{
-        top: 5%;
-        left: 5%;
+        width: 5vw;
+        height: 7vw;
+    }
+    .main_container{
+        flex-direction: column;
+        align-items: center;
     }
     .area1{
-        width: 90%;
-        height: 70%;
-        position: absolute;
-        display: block;
-        top: 3%;
-        margin: 0 5%;
-        left: 0px;
+        width: 80vw;
+        height: 60vw;
     }
     #texto1{
-        position: absolute;
-        width: 100%;
-        height: 40%;
+        height: 40vw;
+        font-size: 3vw;
     }
     #vector2{
-        top: 60%;
+        width: 3vw;
+        height: 3vw;
     }
     #textoVector{
-        top: 60%;
-    }
-    .botones1y2{
-        width: 100%;
-        height: 10%;
-        top: 65%;
-    }
-    .recuadroMostrar{
-        width: 90%;
-        top: 60%;
-        margin: 0 5%;
-        right: 0em;
-        height: 30%;
-    }
-    #mostrarMss{
-        text-align-last: center;
-        margin: 0 5%;
-    }
-    #texto2{
-        width: 90%;
-        margin: 0 10%;
-        height: 200px;
-
-    }
-    #boton3{    
-        text-align: center;
-        margin: 0 15%;
-    }
-    #muñeco{
-        width: 0%;
-        height: 0%;
-    }
-    #aviso1{
-        top: 10%;
-        font-size: 40px;
-    }
-    #aviso2{
-        top: 50%;
-        font-size: 30px;
-    }
-}
-@media screen and (max-width: 414px) {
-    body{
-        height: 100%;
-        overflow: scroll;
-    }
-    .imagen1{
-        left: 20px;
-        top: 20px;
-    }
-    .area1{
-        width: 90%;
-        margin: 0 5%;
-    }
-    #texto1{
-        width: 100%;
-        top: 13%;
-        height: 30%;
-    }
-    #vector2{
-        top: 47%;
-    }
-    #textoVector{
-        top: 47%;
-    }
-    .botones1y2{
-        top: 55%;
-        height: 7%;
+        font-size: 3vw;
     }
     #boton1{
-        font-size: 60%;
+        padding: 4vw;
+        width: 30vw;
+        font-size: 3vw;
     }
     #boton2{
-        font-size: 60%;
+        padding: 4vw;
+        width: 30vw;
+        font-size: 3vw;
     }
     .recuadroMostrar{
-        margin: 0 5%;
-        top: 53%;
-    }
-    #aviso1{
-        top: 20%;
-        font-size: 100%;
-        font-size: 25px;
-        color: #ffffff;
-    }
-    #mostrarMss{
-        height: 100%;
-    }
-    #aviso2{
-        top: 55%;
-        font-size: 100%;
-        color: #ffffff;
+        justify-content: flex-start;
+        width: 80vw;
+        height: 50vw;
     }
     #texto2{
-        height: 70%;
-        font-size: 100%;
-        margin: 0 5%;
+       width: 70vw;
+       height: 30vw;
+       font-size: 3vw;
     }
     #boton3{
-        margin: 0 10%;
-        height: 20%;
-        font-size: 120%;
+        padding: 3vw;
+        width: 30vw;
+        font-size: 3vw;
     }
-    .copyright{
-        position: absolute;
-        top: 95%;
-        margin: 0 6%;
+    #muneco{
+        width: 35vw;
+        height: 35vw;
+    }
+    #aviso1, #aviso2{
+        font-size: 3vw;
     }
 }

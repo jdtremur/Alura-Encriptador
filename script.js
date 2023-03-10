@@ -5,12 +5,18 @@ const inputDesencriptar = document.querySelector("#boton2");
 const inputCopiar = document.querySelector("#boton3");
 
 function quitarimagen(){
-    document.getElementById('aviso').style.display = 'none'
-    document.getElementById('mostrarMss').style.display = 'block';
+    document.getElementById('muneco').style.display = 'none'
+    document.getElementById('aviso1').style.display = 'none'
+    document.getElementById('aviso2').style.display = 'none'
+    document.getElementById('texto2').style.display = 'block';
+    document.getElementById('boton3').style.display = 'block';
 }
 function ponerImagen(){
-    document.getElementById('aviso').style.display = 'block';
-    document.getElementById('mostrarMss').style.display = 'none';
+    document.getElementById('muneco').style.display = 'block'
+    document.getElementById('aviso1').style.display = 'block'
+    document.getElementById('aviso2').style.display = 'block'
+    document.getElementById('texto2').style.display = 'none';
+    document.getElementById('boton3').style.display = 'none';
 }
 function borrarMs(){
     textoIngresado.value="";

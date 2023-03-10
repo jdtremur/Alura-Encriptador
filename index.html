@@ -6,34 +6,38 @@
         <title>Encriptador Alura</title>
         <link rel="stylesheet" href="style.css">
     </head>
-    <body>
-        <header>
+    <body class="body">
+        <header class="header">
             <img src="imagenes.0/Vector.png" alt="imagen de logo alura" class="imagen1">
         </header>
-        <main>
-            <div class="area1">
-                <textarea name="" id="texto1" placeholder="Escribe el texto aqui"></textarea>
-                <img src="imagenes.0/Vector2.png" alt="imagen de advertencia" id="vector2">
-                <p id="textoVector">solo letras minusculas y sin acentos</p>
-                <form class="botones1y2">
-                    <input  type="button" value="Encriptar" id="boton1">
-                    <input  type="button" value="Desencriptar" id="boton2">
-                </form>
-              
-            </div>
-            <div class="recuadroMostrar">
-                <div id="aviso">
-                    <img src="imagenes.0/Muñeco.png" alt="imagen de muñeco" id="muñeco">
-                    <p id="aviso1">Ningún mensaje fue encontrado</p>
-                    <p id="aviso2">Ingrese el texto que deseas encriptar o desencriptar</p>
+        <main class="main">
+            <div class="main_container">
+                <div class="area1">
+                    <textarea name="" id="texto1" placeholder="Escribe el texto aqui"></textarea>
+                    <div class="advertencia">
+                        <img src="imagenes.0/Vector2.png" alt="imagen de advertencia" id="vector2">
+                        <p id="textoVector">solo letras minusculas y sin acentos</p>
+                    </div>
+                    <form class="botones1y2">
+                        <input  type="button" value="Encriptar" id="boton1">
+                        <input  type="button" value="Desencriptar" id="boton2">
+                    </form>
+                  
                 </div>
-                <form id="mostrarMss">
-                    <textarea name="" id="texto2" cols="30" rows="10"></textarea>
-                    <input  type="button"  value="Copiar" id="boton3">
-                </form>    
+                <div class="recuadroMostrar">
+                    <div id="aviso">
+                        <img src="imagenes.0/Muñeco.png" alt="imagen de muñeco" id="muneco">
+                        <p id="aviso1">Ningún mensaje fue encontrado</p>
+                        <p id="aviso2">Ingrese el texto que deseas encriptar o desencriptar</p>
+                    </div>
+                    <form id="mostrarMss">
+                        <textarea name="" id="texto2"></textarea>
+                        <input  type="button"  value="Copiar" id="boton3">
+                    </form>    
+                </div>
             </div>
         </main>
-        <footer>
+        <footer class="footer">
             <p class="copyright">&copy Copyright Julian David Trejos Murillo/Alura - 2022</p>
         </footer>
         <script src="script.js"></script>
