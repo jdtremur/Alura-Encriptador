@@ -160,6 +160,7 @@
     resize: none;
 }
 #boton3{
+    display: none;
     padding: 1vw;
     width: 10vw;
     text-align: center;
